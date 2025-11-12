@@ -1,0 +1,433 @@
+@charset "utf-8";
+header {
+      text-align: center;
+      background: url(images/quantum-computer.jpg);
+      background-size: auto;
+      color: white;
+}
+
+header h1 {
+      font-family: 'Roboto Slab', serif;
+      font-size: 45px;
+      padding: 10px 0px 0px 0px;
+      margin: 0;
+}
+
+header p {
+      font-family: 'Roboto Slab', serif;
+      font-size: 20px;    
+      padding: 40px 0px 0px 0px;
+      margin: 0;
+}
+
+header a {
+      color: white;
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px 15px 10px 15px;
+}
+
+header a:hover {
+      background: -moz-linear-gradient(bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.1)); 
+      background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.8),rgba(0,0,0,0.1));
+}
+
+header ul {
+      padding: 0px 10px 0px 10px;
+      background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.2)); 
+      background: -webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.2));
+      margin: 50px 0 0 0;
+      font-size: 0px;
+}
+
+header li {
+      display: inline;
+      padding: 0px 0px 0px 0px;
+      font-family: 'Kite One', sans-serif;
+      font-size: 20px;
+}
+
+
+article {
+      max-width: 700px;
+      padding: 0px;
+      margin: 0 auto;
+}
+
+article h2 {
+      font-family: 'Roboto', serif;
+      font-size: 26px;
+      padding: 20px 0px 0px 0px;
+}
+
+article h3 {
+      font-family: 'Roboto', serif;
+      font-size: 22px;
+      padding: 0px 0px 0px 0px;
+}
+
+article h4 {
+      font-family: 'Roboto', serif;
+      font-size: 18px;
+      padding: 0px 0px 0px 0px;
+}
+
+article p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+article li {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+      padding: 0px 0px 8px 0px;
+}
+
+article .weeklist {
+    display: inline-block; 
+    font-size:23px; 
+    padding: 15px 10px 10px 15px;
+}
+
+article .namelist th {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 0px 10px 0px;
+}
+
+
+article .namelist td {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+article img#venue  {
+   width:48%;
+   display: inline-block;
+   padding: 0 5px 0 5px;
+}
+
+article img#group  {
+        display: block;
+	width: 95%;
+	margin: 0 auto;
+}
+
+footer {
+      text-align: center;
+      background: url(images/background.png);
+      background-size: cover;
+      color: white;
+/*      background: red; */
+}
+
+footer p {
+      background: rgba(0,0,0,0.5);
+      background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0.2)); 
+      background: -webkit-linear-gradient(top,rgba(0,0,0,1),rgba(0,0,0,0.2));
+      padding: 10px 200px 10px 200px;
+      font-family: 'Kite One', sans-serif;
+}
+
+footer img {
+    background: white;
+}
+
+
+
+table.sprogram {
+width: 700px; 
+/* border: 1px ; */
+border-collapse: separate; 
+margin-top: 10px; 
+margin-bottom: 0px;
+}
+
+.sprogram th {
+font-family: 'Roboto', serif;
+font-size: 17px;
+padding: 13px;
+}
+
+.sprogram td {
+font-family: 'Roboto Slab', serif;
+font-size: 15px;
+padding: 7px;
+vertical-align: middle;
+text-align: center;
+/* border-bottom: #999 1px solid; */
+}
+
+.sprogram .coffee {
+font-size:13px; 
+background-color: rgba(141,100,73,0.5);
+border-bottom: #999 2px solid; 
+border-right: #999 2px solid; 
+}
+
+.sprogram .talk { 
+background: #bbc8e6;
+border-bottom: #999 2px solid; 
+border-right: #999 2px solid; 
+}
+
+.sprogram .post { 
+background: #e8d3d1;
+border-bottom: #999 2px solid; 
+border-right: #999 2px solid; 
+}
+
+.sprogram .brk { 
+border-bottom: 0px solid; 
+}
+
+.sprogram .brkk { 
+border-bottom: 0px solid; 
+}
+
+.sprogram .free  {
+background-color: #d8e698;
+border-bottom: #999 2px solid; 
+border-right: #999 2px solid; 
+}
+
+.sprogram .time { 
+border-bottom: 0px solid;
+width: 10px; 
+padding: 0px; 
+}
+
+.sprogram .fl { 
+border-bottom: 0px solid; 
+text-align: left;
+}
+
+.sprogram .sympo { 
+background: #dbd0e6;
+border-bottom: #999 2px solid; 
+border-right: #999 2px solid; 
+}
+
+.sprogram .lecture { 
+background: #dbd0e6;
+border-bottom: #999 2px solid; 
+border-right: #999 2px solid; 
+}
+
+.sprogram .date { 
+border: 1px solid #000000; 
+background: #c0c6c9;
+background: -moz-linear-gradient(bottom, rgba(192,198,201,0.7), rgba(192,198,201,0.1));
+background: -webkit-linear-gradient(bottom,rgba(192,198,201,0.7),rgba(192,198,201,0.1));
+}
+
+table.poster {
+width: 700px; 
+margin-left: 0px; 
+margin-bottom: 40px;
+}
+
+
+.poster th { 
+font-family: 'Roboto', serif;
+font-size: 18px;
+padding:10px;
+text-align: center; 
+vertical-align: top; 
+}
+
+.poster td { 
+font-family: 'Roboto Slab', serif;
+font-size: 18px;
+padding:10px;
+text-align: left; 
+vertical-align: top; 
+}
+
+.poster .title { 
+font-style: normal; 
+}
+
+
+
+@media (max-width: 600px) {
+      body {
+        background: white;
+      }
+      header h1 {
+        font-size: 26px;
+        padding: 0px 0px 0px 0px;
+        margin: 0 0 -10px 0 ;
+      }
+      header p {
+        font-size: 15px;
+        padding: 10px 0px 0px 0px;
+      }
+      header a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+/*	background: red;  */
+	padding: 7px 90px 7px 90px;
+      }
+      header ul {
+	  margin: 0 0 0 0 ;
+	  background: none;
+      }
+      header li {
+        display: block;
+/*        padding: 5px; */
+        font-size: 18px;
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,0.2)); 
+	background: -webkit-linear-gradient(bottom,rgba(0,0,0,1),rgba(0,0,0,0.2));
+	border-radius:7px 7px 7px 7px; 
+      }
+      article {
+	max-width: 100%;
+      }
+
+      article h2 {
+        font-size: 20px;
+	padding: 10px 0px 0px 0px;
+      }
+
+      article h3 {
+      font-size: 18px;
+      }
+
+      article h4 {
+      font-size: 15px;
+      padding: 0px 0px 0px 0px;
+      }
+
+      article p {
+	font-size: 15px;
+	padding: 0px 0px 0px 5px;
+      }
+
+      article li {
+	font-size: 15px;
+      }
+
+      article .weeklist {
+	  font-size:18px; 
+	  padding: 10px 10px 10px 10px;
+      }
+
+      article .namelist th {
+	  font-family: 'Roboto Slab', serif;
+	  font-size: 15px;
+	  text-align: left;
+	  padding: 0px 0px 3px 0px;
+}
+
+      article .namelist td {
+        font-size: 15px;
+	background: -moz-linear-gradient(bottom, rgba(0,0,0,0.2), rgba(0,0,0,0)); 
+	background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.2),rgba(0,0,0,0));
+	vertical-align: top;
+      }
+
+      article img#venue {
+	width:47%;
+	display: inline-block;
+	padding: 0 2px 0 2px;
+	margin: 0 auto;
+      }
+
+      article img#group {
+        display: block;
+	width: 95%;
+	margin: 0 auto;
+      }
+
+      footer {
+	font-size: 15px;
+	padding: 0px 0px 0px 5px;
+      }
+
+      footer p {
+        padding: 10px 10px 10px 10px;
+      }
+
+      table.sprogram { 
+	width: 100%; 
+      }
+
+      .sprogram th { 
+	padding: 5px;
+      }
+
+      .sprogram td { 
+	  padding: 2px;
+      }
+
+      .sprogram .coffee {
+	  font-size:10px; 
+      }
+
+      .sprogram .talk { 
+	  font-size:12px; 
+      }
+
+      .sprogram .post { 
+	  font-size:12px; 
+      }
+
+      .sprogram .brk { 
+	  font-size:12px; 
+      }
+
+      .sprogram .brkk { 
+	  font-size:12px; 
+      }
+      .sprogram .free  {
+	  font-size:12px; 
+	  
+      }
+      .sprogram .fl { 
+	  text-align: left;
+      }
+
+      .sprogram .sympo { 
+	  font-size:12px; 
+      }
+
+      .sprogram .lecture {
+	  font-size:12px;  
+      }
+
+      .sprogram .date { 
+	  font-size:13px; 
+	  border: 1px solid #000000; 
+	  /* width: 10%; */
+	  padding: 2px;
+      }
+
+      table.poster {
+	  width: 100%; 
+	  margin-left: 0px; 
+	  margin-bottom: 20px;
+      }
+
+      .poster th { 
+	  font-family: 'Roboto', serif;
+	  font-size: 13px;
+	  padding:5px;
+      }
+
+      .poster td { 
+	  font-family: 'Roboto Slab', serif;
+	  font-size: 12px;
+	  padding: 5px;
+	  text-align: left; 
+	  vertical-align: top; 
+      }
+
+      .poster .title { 
+	  font-style: normal; 
+      }
+
+}
